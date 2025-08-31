@@ -12,7 +12,7 @@ body {
 }
 
 .cabecalho {
-    background-color: #ffffff;
+    background-color: #000000;
     padding: 1rem 2rem;
     display: flex;
     justify-content: space-between;
@@ -26,6 +26,7 @@ body {
 .logo {
     font-weight: bold;
     font-size: 1.5rem;
+    color: white;
 }
 
 .menu-principal ul {
@@ -36,7 +37,7 @@ body {
 
 .menu-principal ul li a {
     text-decoration: none;
-    color: #555;
+    color: #ffffff;
     font-weight: bold;
 }
 
@@ -105,4 +106,42 @@ main {
 .card img {
     border-radius: 5px;
     margin-right: 1rem;
+}
+
+.rodape {
+    background-color: #000000;
+    color: white;
+    padding: 1.5rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.rodape a {
+    color: #f8f9fa;
+    text-decoration: none;
+    margin: 0 0.5rem;
+}
+
+.form-inscricao {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.form-inscricao input {
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.form-inscricao button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    cursor: pointer;
 }
