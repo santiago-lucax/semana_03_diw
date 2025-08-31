@@ -1,6 +1,41 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
-body {}
+body {
+    font-family: sans-serif;
+    background-color: #f0f2f5; 
+    color: #333;
+    line-height: 1.6;
+}
+
+.cabecalho {
+    background-color: #ffffff;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.logo {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.menu-principal ul {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+}
+
+.menu-principal ul li a {
+    text-decoration: none;
+    color: #555;
+    font-weight: bold;
+}
