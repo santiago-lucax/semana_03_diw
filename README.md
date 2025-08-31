@@ -8,8 +8,8 @@
 
 ## Wireframe
 
-![WireFrame](/semana_03_diw/public/wireframe_devdef.png)
+![WireFrame](public/wireframe_devdef.png)
 
 ## Print Home-Page
 
-![Home-Page](/semana_03_diw/public/homepage.jpg)
+![Home-Page](public/homepage.jpg)
