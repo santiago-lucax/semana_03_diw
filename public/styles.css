@@ -138,8 +138,8 @@ main {
 }
 
 .form-inscricao button {
-    background-color: #28a745;
-    color: white;
+    background-color: #328f56;
+    color: rgb(0, 0, 0);
     border: none;
     padding: 0.5rem 1rem;
     border-radius: 4px;
