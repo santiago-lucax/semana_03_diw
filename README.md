@@ -8,7 +8,7 @@
 
 ## Wireframe
 
-![WireFrame](assets\wireframe_devdef.png)
+![WireFrame](wireframe_devdef.png)
 
 ## Print Home-Page
 
