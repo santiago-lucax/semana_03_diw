@@ -65,3 +65,44 @@ main {
     font-size: 1rem;
     box-shadow: 0.25rem 0.25rem black;
 }
+
+.conteudo-container {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap; 
+}
+
+.conteudo-container p {
+    font-weight: bold;
+}
+
+.secao-dicas,
+.secao-ferramentas {
+    background-color: #e9ecef;
+    padding: 1.5rem;
+    border-radius: 8px;
+    width: 45%;
+    min-width: 300px;
+}
+
+.secao-dicas h2,
+.secao-ferramentas h2 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.card {
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+    padding: 0.8rem;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.card img {
+    border-radius: 5px;
+    margin-right: 1rem;
+}
